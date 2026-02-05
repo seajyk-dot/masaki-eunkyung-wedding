@@ -10,8 +10,14 @@ body {
   background: #efe9da;
   color: #222;
   line-height: 1.6;
-  font-family: 'Playfair Display', 'Noto Sans KR', serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'SF Pro Text',
+    'Apple SD Gothic Neo',
+    sans-serif;
 }
+
 
 
 .hero {
