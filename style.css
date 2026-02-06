@@ -60,13 +60,23 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   font-weight: 700;
-  color: #b8a882;
+  color: #6a5f49;
   letter-spacing: 3px;
   margin-bottom: 24px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
 .greeting-text-box {
   margin-top: 40px;
+}
+
+/* GREETING 본문 – 어르신 가독성 기준 */
+.greeting-text-box .text {
+  font-size: 16px;
+  line-height: 2;
+  color: #4f4635;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.18);
 }
 
 /* Section Divider & Subtitle */
@@ -79,8 +89,9 @@ body {
 
 .section-subtitle {
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  color: #b8a882;
+  font-size: 23px;
+  color: #7a6f57;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.12);
   margin-bottom: 24px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -113,7 +124,8 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   font-weight: 700;
-  color: #b8a882;
+  color: #6a5f49;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.18);
   letter-spacing: 3px;
   margin-bottom: 12px;
 }
@@ -121,7 +133,8 @@ body {
 .host-subtitle {
   font-family: 'Dancing Script', cursive;
   font-size: 16px;
-  color: #b8a882;
+  color: #7a6f57;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
   margin-bottom: 40px;
 }
 
@@ -160,25 +173,28 @@ body {
 
 .host-role {
   font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  color: #b8a882;
+  color: #7a6f57;
+  font-size: 15px;
   letter-spacing: 2px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
   font-weight: 400;
   margin-bottom: 4px;
 }
 
 .host-korean {
   font-family: 'Playfair Display', serif;
-  font-size: 16px;
-  color: #222;
+  font-size: 18px;
+  color: #2f2a22;
   font-weight: 700;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
   margin-bottom: 4px;
 }
 
 .host-name {
   font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  color: #b8a882;
+  font-size: 15px;
+  color: #6f6654;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.18);
   font-weight: 400;
   margin-bottom: 12px;
   letter-spacing: 1px;
@@ -186,11 +202,13 @@ body {
 
 .host-text {
   font-family: 'Playfair Display', serif;
-  font-size: 13px;
-  color: #b8a882;
-  line-height: 1.8;
-  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #4f4635;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.18);
 }
+
 
 
 
@@ -336,6 +354,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
 .countdown-year {
@@ -545,7 +564,8 @@ footer {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
   letter-spacing: 4px;
-  color: #b8a882;
+  color: #5a4f3c;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
   margin-bottom: 32px;
   text-align: center;
 }
@@ -566,24 +586,28 @@ footer {
 
 .schedule-time {
   font-family: 'Playfair Display', serif;
-  color: #b8a882;
-  font-size: 18px;
+  font-size: 20px;
+  color: #3a3327;
   font-weight: 700;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
   margin-bottom: 6px;
 }
 
 .item-title {
   font-family: 'Playfair Display', serif;
-  font-size: 16px;
-  color: #222;
+  font-size: 17px;
+  color: #2f2a22;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.22);
   margin-bottom: 4px;
 }
 
 .item-sub {
   font-family: 'Playfair Display', serif;
-  color: #b8a882;
-  font-size: 12px;
+  font-size: 13px;
+  color: #7a6f57;
   letter-spacing: 1px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.18);
   margin-bottom: 8px;
 }
 
@@ -621,6 +645,7 @@ footer {
   text-align: left;
   position: relative;
   padding-bottom: 12px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
 }
 
 .ceremony-title::after {
@@ -645,6 +670,7 @@ footer {
   font-size: 16px;
   margin-bottom: 8px;
   letter-spacing: 2px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.35);
 }
 
 .ceremony-date-display {
@@ -679,6 +705,9 @@ footer {
   font-size: 48px;
   color: #ffffff;
   font-weight: 700;
+    text-shadow: 
+    0 2px 6px rgba(0,0,0,0.45),
+    0 1px 2px rgba(0,0,0,0.5);
 }
 
 .ceremony-location-box {
@@ -695,6 +724,7 @@ footer {
   position: relative;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(255,255,255,0.3);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.35);
 }
 
 .location-info-row {
@@ -716,6 +746,7 @@ footer {
   width: 80px;
   text-align: center;
   flex-shrink: 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
 }
 
 .location-value {
@@ -723,6 +754,7 @@ footer {
   font-family: 'Playfair Display', serif;
   font-size: 14px;
   line-height: 1.5;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.35);
 }
 
 .location-map {
@@ -759,12 +791,14 @@ footer {
   border-radius: 22px;
   padding: 44px 26px;
   text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
 .gift-title {
   font-family: 'Playfair Display', serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.25);
   color: #3a3a36;
   margin-bottom: 14px;
   letter-spacing: 0.5px;
@@ -776,6 +810,8 @@ footer {
   color: #7a786f;
   line-height: 1.8;
   margin-bottom: 40px;
+  font-weight: 500;
+  /* text-shadow: 0 1px 3px rgba(0,0,0,0.25); */
 }
 
 .gift-role {
@@ -784,12 +820,17 @@ footer {
   color: #9a988f;
   margin-bottom: 6px;
   letter-spacing: 0.5px;
+  font-weight: 600;
+  /* text-shadow: 0 1px 3px rgba(0,0,0,0.25); */
 }
 
 .gift-name {
   font-family: 'Playfair Display', serif;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 800;
+  /* text-shadow:
+    0 2px 5px rgba(0,0,0,0.3),
+    0 1px 2px rgba(0,0,0,0.35); */
   color: #2a2a27;
   margin-bottom: 8px;
 }
@@ -810,6 +851,8 @@ footer {
   background: transparent;
   color: #3a3a36;
   cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 
@@ -824,6 +867,7 @@ footer {
   color: #8a8a82;
   opacity: 0;
   transition: opacity 0.2s ease;
+  font-weight: 500;
 }
 
 .copy-feedback.visible {
@@ -843,6 +887,10 @@ footer {
   color: #b8a882;
   margin-bottom: 18px;
   letter-spacing: 1px;
+  font-weight: 700; /* 스크립트라도 두께 확보 */
+  /* text-shadow:
+    0 3px 10px rgba(0,0,0,0.35),
+    0 1px 3px rgba(0,0,0,0.4); */
 }
 
 .thanks-text {
@@ -851,6 +899,10 @@ footer {
   color: #b8a882;
   letter-spacing: 1px;
   line-height: 1.8;
+  font-weight: 600;
+  /* text-shadow:
+    0 2px 6px rgba(0,0,0,0.3),
+    0 1px 2px rgba(0,0,0,0.35); */
 }
 
 /* 모바일 보정 */
@@ -862,4 +914,90 @@ footer {
   .thanks-text {
     font-size: 13px;
   }
+}
+
+
+/* HERO – 가독성 강화 (어르신 기준) */
+.hero-overlay {
+  color: #fdfcf8;
+}
+
+/* BEST */
+.hero-sub {
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+/* day */
+.hero-day {
+  font-size: 26px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+/* EVER */
+.hero-overlay h1 {
+  font-size: 54px;
+  font-weight: 700;
+  text-shadow:
+    0 3px 10px rgba(0,0,0,0.55),
+    0 1px 2px rgba(0,0,0,0.6);
+}
+
+/* 날짜 */
+.hero-date {
+  font-size: 16px;
+  margin-top: 14px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+/* 이름 */
+.hero-names {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-top: 6px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+/* 하단 문구 */
+.hero-footer {
+  font-size: 14px;
+  margin-top: 20px;
+  opacity: 0.95;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 767px) {
+  .hero-overlay h1 {
+    font-size: 58px;
+    font-weight: 900;
+  }
+
+  .hero-sub {
+    font-size: 22px;
+  }
+
+  .hero-day {
+    font-size: 28px;
+  }
+
+  .hero-date {
+    font-size: 17px;
+  }
+
+  .hero-names {
+    font-size: 16px;
+  }
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.15)
+  );
+  z-index: 1;
 }
