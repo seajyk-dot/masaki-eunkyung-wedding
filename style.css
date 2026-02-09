@@ -154,7 +154,7 @@ body {
 .host-image {
   flex-shrink: 0;
   width: 100%;
-  height: 200px;
+  height: 280px;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -163,6 +163,8 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* 머리·얼굴이 잘리지 않도록 이미지 상단 기준으로 맞춤 */
+  object-position: top center;
 }
 
 .host-content {
@@ -209,8 +211,12 @@ body {
   text-shadow: 0 1px 2px rgba(0,0,0,0.18);
 }
 
-
-
+/* 데스크톱: 넓은 화면에서 이미지 비율이 낮아져 머리가 잘리지 않도록 높이 확대 */
+@media (min-width: 768px) {
+  .host-image {
+    height: 380px;
+  }
+}
 
 .info p {
   margin-bottom: 10px;
